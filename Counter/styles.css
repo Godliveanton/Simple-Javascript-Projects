@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  letter-spacing: 4px;
+}
+
+.counter-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.counter-heading {
+  color: #112b44;
+  margin: 2%;
+  font-size: 60px;
+}
+
+.counter-value {
+  margin: 2%;
+  margin-top: 0;
+  font-size: 80px;
+}
+
+.counter-reset {
+  color: black;
+}
+
+.counter-increase {
+  color: green;
+}
+
+.counter-decrease {
+  color: red;
+}
+
+button {
+  background: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  letter-spacing: 4px;
+}
